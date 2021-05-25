@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         mul.setOnClickListener {
             val num1 = n1.text.toString().toDouble()
             val num2 = n2.text.toString().toDouble()
-            formula.text = "$num1 + $num2"
+            formula.text = "$num1 * $num2"
             res = num1 * num2
             result.text = "$res"
         }
